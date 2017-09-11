@@ -1,5 +1,5 @@
 # Time-Management-App
-  ###Group based time management app for businesses
+  Group based time management app for businesses
 
 ##Developed
     ** Big words make me feel like I've done more work than I actually have **
