@@ -44,7 +44,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         border-radius: 512px;
         width: 256px;
         height: 256px;
+<<<<<<< Updated upstream
         background-color: var(--paper-grey-400);
+=======
+        background-color: var(--paper-red-400);
+>>>>>>> Stashed changes
 
         transform-origin: 128px 128px;
       }
@@ -81,7 +85,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       }
     </style>
     <div id="background"></div>
-    <na-note id="note" title="{{note.title}}" body="{{note.body}}" editable></na-note>
+    <na-note id="note" title="{{note.title}}" body="{{note.body}}" editable>
+    </na-note>
     <div class="controls">
       <paper-button on-tap="delete">Delete</paper-button>
       <paper-button on-tap="save">Done</paper-button>
