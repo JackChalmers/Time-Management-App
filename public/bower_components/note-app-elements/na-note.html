@@ -101,7 +101,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           bind-value="{{title}}">
       </input>
       <iron-autogrow-textarea
-          value="{{body}}" style="max-height: 300px;" id="note-area" onLoad="fillText()">
+          value="{{body}}" style="max-height: 300px;" id="note-area">
       </iron-autogrow-textarea>
     </template>
     <template is="dom-if" if="[[!editable]]">
@@ -153,11 +153,5 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         return true;
       }
     })
-  </script>
-
-  <script>
-    function fillText() {
-      document.getElementByID("note-area").innerHTML="test";
-    }
   </script>
 </dom-module>
